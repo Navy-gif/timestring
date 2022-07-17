@@ -1,5 +1,5 @@
 {
-  "name": "timestring",
+  "name": "@navy.gif/timestring",
   "version": "6.0.0",
   "description": "Parse a human readable time string into a time based value",
   "main": "index.js",
@@ -13,11 +13,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mike182uk/timestring.git"
+    "url": "git://github.com/Navy-gif/timestring.git"
   },
-  "homepage": "https://github.com/mike182uk/timestring",
+  "homepage": "https://github.com/Navy-gif/timestring",
   "bugs": {
-    "url": "https://github.com/mike182uk/timestring/issues"
+    "url": "https://github.com/Navy-gif/timestring/issues"
   },
   "keywords": [
     "time",
