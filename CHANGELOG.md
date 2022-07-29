@@ -1,6 +1,7 @@
 # Changelog
 
-## 6.0.2
+## 6.0.2 - 6.0.6
+Multiple version bumps because brain no worky
 
 - TS typings
 

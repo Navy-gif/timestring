@@ -13,11 +13,11 @@ type ReturnUnit =
     'y' 
 
 type TimestringOptions = {
-    hoursPerDay: number
-    daysPerWeek: number
-    weeksPerMonth: number
-    monthsPerYear: number
-    daysPerYear: number
+    hoursPerDay?: number
+    daysPerWeek?: number
+    weeksPerMonth?: number
+    monthsPerYear?: number
+    daysPerYear?: number
 }
 
-declare function timestring(string: string, returnUnit: ReturnUnit, opts: TimestringOptions): any;
+declare function timestring(string: string, returnUnit?: ReturnUnit, opts?: TimestringOptions): any;

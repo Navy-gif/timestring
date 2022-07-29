@@ -1,6 +1,6 @@
 {
   "name": "@navy.gif/timestring",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "description": "Parse a human readable time string into a time based value",
   "main": "./index.js",
   "types": "./index.d.ts",
