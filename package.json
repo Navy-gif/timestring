@@ -1,8 +1,9 @@
 {
   "name": "@navy.gif/timestring",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "description": "Parse a human readable time string into a time based value",
-  "main": "./src/index.js",
+  "main": "./index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -x test.js test.js",
     "dev": "watch 'clear; npm test -s;' ./ -d",
@@ -19,6 +20,10 @@
   "bugs": {
     "url": "https://github.com/Navy-gif/timestring/issues"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "keywords": [
     "time",
     "timestring",
