@@ -19,7 +19,7 @@ npm install --save timestring
 ### Overview
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '1h 15m'
 let time = timestring(str)
@@ -32,7 +32,7 @@ console.log(time) // will log 4500
 The time string can contain as many time groups as needed:
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '1d 3h 25m 18s'
 let time = timestring(str)
@@ -43,7 +43,7 @@ console.log(time) // will log 98718
 and can be as messy as you like:
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '1 d    3HOurS 25              min         1   8s'
 let time = timestring(str)
@@ -67,7 +67,7 @@ console.log(time) // will log 98718
 Keywords can be used interchangeably:
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '1day 15h 20minutes 15s'
 let time = timestring(str)
@@ -89,7 +89,7 @@ By default the return time value will be in seconds. This can be changed by pass
 8. `y` - Years
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '22h 16m'
 
@@ -123,7 +123,7 @@ The following options are configurable:
 5. `daysPerYear`
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = '1d'
 let opts = {
@@ -142,7 +142,7 @@ This would be useful for specific application needs.
 *Example - Employees of my company work 7.5 hours a day, and only work 5 days a week. In my time tracking app, when they type `1d` i want 7.5 hours to be tracked. When they type `1w` i want 5 days to be tracked etc.*
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let opts = {
   hoursPerDay: 7.5,
@@ -163,7 +163,7 @@ It is important to note that the `daysPerYear` configuration option will be used
 If the string that is passed into `timestring` can not be parsed then an error will be thrown:
 
 ```js
-const timestring = require('timestring')
+const timestring = require('@navy.gif/timestring')
 
 let str = 'aaabbbccc'
 let time = timestring(str) // will throw an error
