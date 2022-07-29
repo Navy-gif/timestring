@@ -1,9 +1,8 @@
 {
-  "types:": "./timestring.d.ts",
   "name": "@navy.gif/timestring",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "description": "Parse a human readable time string into a time based value",
-  "main": "./index.js",
+  "main": "./src/index.js",
   "scripts": {
     "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -x test.js test.js",
     "dev": "watch 'clear; npm test -s;' ./ -d",
