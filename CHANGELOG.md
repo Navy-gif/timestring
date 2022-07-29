@@ -1,5 +1,13 @@
 # Changelog
 
+## 6.0.2
+
+- TS typings
+
+## 6.0.1
+
+- Added `mo` as a shorthand for month
+
 ## 6.0.0
 
 - Drop support for Node.js `< 8.0.0`
